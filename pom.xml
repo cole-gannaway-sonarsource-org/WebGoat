@@ -149,6 +149,9 @@
     <xstream.version>1.4.5</xstream.version>
     <!-- do not update necessary for lesson -->
     <zxcvbn.version>1.8.0</zxcvbn.version>
+    <sonar.coverage.jacoco.xmlReportPaths>
+      ./target/site/jacoco-unit-test-coverage-report/jacoco.xml
+    </sonar.coverage.jacoco.xmlReportPaths>
   </properties>
 
   <dependencyManagement>
